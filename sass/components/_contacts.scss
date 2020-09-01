@@ -1,0 +1,27 @@
+.adres-link {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+// .auth-nav {
+//     // display: flex;
+//     margin-left: auto;
+//     & li:first-child {
+//         margin-right: 50px;
+//     }
+// }
+.adres-link svg {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.adres-link:hover svg {
+    fill: currentColor;
+}
+
+@media screen and (max-width: 1199px) {
+    .adres-link {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,55 @@
+.advantages {
+    padding-bottom: 0;
+    &-text {
+        font-weight: normal;
+        line-height: 1.715em;
+        letter-spacing: 0.04em;
+    } // &-list {
+    //     display: flex;
+    // }
+    // &-item {
+    //     width: 270px;
+    //     margin-right: 30px;
+    //     flex-wrap: wrap;
+    // }
+    &-item:last-child {
+        margin-right: 0px;
+    }
+    &-item::before {
+        display: block;
+        content: "";
+        height: 120px;
+        width: 100%;
+        background-color: #F5F4FA;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.sputnik::before {
+    background-image: url(/goit-markup-hw-08/images/icon-1.svg);
+}
+
+.clock::before {
+    background-image: url(/goit-markup-hw-08/images/icon-2.svg);
+}
+
+.diagramm::before {
+    background-image: url(/goit-markup-hw-08/images/icon-3.svg);
+}
+
+.boy::before {
+    background-image: url(/goit-markup-hw-08/images/img-4.jpg);
+}
+
+@media screen and (min-width:480px) {
+    .advantages-item h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .advantages-text {
+        margin-bottom: 60px;
+    }
+}
