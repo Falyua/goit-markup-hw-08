@@ -39,11 +39,13 @@
 }
 
 .boy::before {
-    background-image: url(/goit-markup-hw-08/images/img-4.jpg);
+    background-image: url(/goit-markup-hw-08/images/icon-4.jpg);
 }
 
 @media screen and (min-width:480px) {
     .advantages-item h3 {
+        font-weight: bold;
+        text-transform: uppercase;
         text-align: center;
     }
 }

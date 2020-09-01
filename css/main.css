@@ -55,7 +55,7 @@ a {
 
 .section-title {
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
   margin-bottom: 50px;
 }
 
@@ -758,19 +758,19 @@ nav {
 }
 
 .sputnik::before {
-  background-image: url(../images/icon-1.svg.svg);
+  background-image: url(../images/icon-1.svg);
 }
 
 .clock::before {
-  background-image: url(../images/icon-2.svg.svg);
+  background-image: url(../images/icon-2.svg);
 }
 
 .diagramm::before {
-  background-image: url(../images/icon-3.svg.svg);
+  background-image: url(../images/icon-3.svg);
 }
 
 .boy::before {
-  background-image: url(../images/icon-4.svg.svg);
+  background-image: url(../images/icon-4.svg);
 }
 
 .advantages-item:not(:last-child) {
@@ -779,6 +779,8 @@ nav {
 
 @media screen and (min-width: 480px) {
   .advantages-item h3 {
+    font-weight: bold;
+    text-transform: uppercase;
     text-align: center;
   }
 }
@@ -804,6 +806,8 @@ nav {
     margin-right: 30px;
   }
   .advantages-item h3 {
+    font-weight: bold;
+    text-transform: uppercase;
     text-align: start;
   }
 }
