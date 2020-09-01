@@ -208,7 +208,7 @@ nav {
 
 .site-nav a {
   color: #212121;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -647,7 +647,7 @@ nav {
   1px 4px 6px rgba(0, 0, 0, 0.16);
   opacity: 0;
   visibility: hidden;
-  transform: translateY(25%);
+  transform: translateY(100%);
   transition: all 0.75s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
