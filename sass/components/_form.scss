@@ -145,6 +145,10 @@
 @media screen and (min-width: 1200px) {
     .checkbox-label {
         font-size: 12px;
+        margin: 0;
         align-items: center;
+        position: relative;    
+        display: flex;
+        flex-flow: row;
     }
 }

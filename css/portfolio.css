@@ -135,7 +135,7 @@ a {
     margin-right: 30px;
   }
   .auth-nav.list {
-    margin-left: 40px;
+    margin-left: 0px;
   }
   nav {
     margin-right: 250px;
@@ -394,14 +394,16 @@ nav {
 @media screen and (min-width: 480px) and (max-width: 1199px) {
   .checkbox-label {
     font-size: 12px;
-    display: flex;
+    margin: 0;
     align-items: center;
+    position: relative;    display: flex;
+   flex-flow: row;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .form-wrapper {
-    width: 450px;
+    width:  528px;
   }
 }
 

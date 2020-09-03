@@ -103,14 +103,17 @@
     //     width: 370px;
     // }
     .checkbox-label {
-        font-size: 12px;
-        display: flex;
-        align-items: center;
+    font-size: 12px;
+    margin: 0;
+    align-items: center;
+    position: relative;    
+    display: flex;
+    flex-flow: row;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .form-wrapper {
-        width: 450px;
+        width:  528px;
     }
 }
